@@ -6,6 +6,11 @@ const express = require("express");
 const app = express();
 
 /*
+Default Get route
+*/
+app.get("/", (req, res) => {res.send("Welcome home!")});
+
+/*
 server host name and port
 */
 
